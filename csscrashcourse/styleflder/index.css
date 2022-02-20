@@ -1,0 +1,206 @@
+body {
+  background: #fff;
+  color: black;
+  /* font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px; */
+  /* font:normal 56px Arial,Helvetica,sans-sarif; */
+  font: normal 24px Arial, Helvetica, san-sarif;
+
+  line-height: 1.6em;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: red;
+}
+a:active {
+  color: green;
+}
+
+.container {
+  width: 80%;
+  margin: 10px 10px;
+}
+.box-1 {
+  background-color: #ffffff;
+  color: #333;
+  /* border-right:5px red solid;
+  border-left:5px red solid;
+  border-top:5px red solid;
+  border-bottom:5px red solid; */
+  border: solid 5px red;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  margin: 20px;
+}
+.button {
+  background-color: #333;
+  color: rgb(231, 231, 240);
+  padding: 10px, 15px;
+  border: none;
+  margin-right: 20px;
+  text-align: center;
+}
+.button :hover {
+  background-color: red;
+  color: #fff;
+}
+.clr {
+  clear: both;
+}
+
+.box-1 h1 {
+  font: normal;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  text-decoration: underline;
+  text-transform: uppercase;
+  word-spacing: 0.3em;
+}
+
+.box-2 h1 {
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+  text-align: center;
+  padding: 20px;
+  width: 80%;
+  margin: 20px;
+  border: solid #fff 5px;
+  border-style: dotted;
+}
+
+.container-2 {
+  background-color: #fff;
+  color: #333;
+  margin: 20px;
+  padding: 20px;
+  width: 80%;
+  border-style: groove;
+  border-color: red;
+  border-width: 0.2em;
+  left: 25%;
+}
+.categries {
+  border: 1.5px #ccc solid;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px;
+  width: 80%;
+}
+.categries h2 {
+  text-align: center;
+}
+.categries ul {
+  padding: 0;
+  padding-left: 30px;
+  list-style: circle;
+  list-style: none;
+}
+.categries li {
+  padding-bottom: 6px;
+  border-bottom: dotted 1px#333;
+  list-style-image: url("../images/tick1.png");
+}
+.form-group {
+  padding: 20px;
+}
+.form-group {
+  padding-bottom: 15px;
+  color: #333;
+  background-color: #fff;
+  padding-right: 20px;
+  width: 60%;
+}
+.my-form label {
+  display: block;
+}
+.my-form input[type="text"],
+.my form textarea {
+  padding: 8px;
+  width: 100%;
+  background-color: hsl(0, 0%, 100%);
+}
+.my-form textarea {
+  padding: 8px;
+  width: 100%;
+  background-color: hsl(0, 0%, 100%);
+}
+.block {
+  float: left;
+  width: 33.3%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#main-block {
+  float: left;
+  width: 70%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+#sidebar {
+  float: right;
+  width: 30%;
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  box-sizing: border-box;
+  top: 15%;
+  bottom: 15%;
+}
+.p-box {
+  width: 800px;
+  height: 500px;
+  border: 1px solid #000;
+  margin-top: 30px;
+  position: relative;
+  background-image: url(../styleflder/images/img1.jpg);
+  background-position: 100px 200px;
+  left: 25%;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.p-box h1 {
+  position: absolute;
+  top: 80px;
+  left: 150px;
+}
+.p-box h2 {
+  position: absolute;
+  bottom: 40px;
+  right: 100px;
+}
+
+.fix-me {
+  position: fixed;
+  top: 400px;
+}
+.my-list li:first-child {
+  background-color: red;
+}
+.my-list li:last-child {
+  background-color: blue;
+}
+
+.my-list li:nth-child(6) {
+  background-color: chartreuse;
+}
+
+.my-list li:nth-child(even) {
+  background-color: grey;
+  color: #fff;
+}
+.my-list li:nth-child(odd) {
+  background-color: red;
+  color: #fff;
+}
